@@ -17,7 +17,7 @@ By the end of this, developers should be able to:
 -  Identify advantages to using TypeScript over plain JavaScript
 -  Write interfaces and classes
 
-# What is TypeScript?
+## What is TypeScript?
 
 TypeScript is a JavaScript compiler developed by Microsoft. Per the [TypeScript
 doc's](https://www.typescriptlang.org/index.html), "TypeScript is a typed superset of JavaScript that compiles into plain
@@ -30,16 +30,16 @@ TypeScript is also compatible with almost all JavaScript libraries such as React
 Node, and Angular. It compiles into code compatible with any web browser or any
 JavaScript engine (ECMAScript 3 or newer).
 
-# Why use TypeScript?
+## Why use TypeScript?
 
   - Scalability:
-  - ## Error handling:
+  - #### Error handling:
     - Typescript provides a lot of ways to add validations to your
       JavaScript code, which will throw meaningful error messages without having to
       code out error handling messages that are known to cause performance issues.
   -
 
-# References
+## References
 - https://www.typescriptlang.org/
 - https://github.com/Microsoft/TypeScript/blob/master/doc/spec.md
 - https://medium.freecodecamp.org/when-should-i-use-typescript-311cb5fe801b
