@@ -32,6 +32,8 @@ JavaScript engine (ECMAScript 3 or newer).
 
 ## Why use TypeScript?
 
+  Main goal of Typescript is to give web developers a toolkit to spend more time creating new code, and less time analyzing,       understanding, and error testing existing code.
+
   - Scalability:
   - #### Error handling:
     - Typescript provides a lot of ways to add validations to your
