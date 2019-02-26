@@ -10,8 +10,7 @@
 By the end of this, developers should be able to:
 
 -  Describe what TypeScript is and why it is different than JavaScript
--  Identify advantages to using TypeScript over plain JavaScript
--  Write interfaces and classes
+-  Identify advantages to using TypeScript over plain JavaScript  
 
 ## What is TypeScript?
 
@@ -32,14 +31,38 @@ JavaScript engine (ECMAScript 3 or newer).
 
 Main goal of Typescript is to give developers a toolkit that allows us to spend more time writing new code, and less time analyzing,      understanding, and error testing existing code.
 
-### Benefits:
+### PROS:
   - #### Scalability:
   TypeScript was designed with large applications and large dev teams in mind and can be used on the front end and on the back end.
   - #### Static Typing:
   Be explicit about the data type of variables and function arguments. TypeScript's type checking acts almost as a linter, as it will warn you about potential errors before the code is ran. This concept of static data types is familar to a lot of programmers who code in a language with stricter type checking, like C++ or Java, however using static typing is still optional in TypeScript.
-  - #### Error handling:
-  TypeScript provides a lot of ways to add validations to your JavaScript code. It will throw meaningful default error messages so you don't have to code out error handling messages that are known to cause performance issues.
 
+  TypeScript:
+  ```
+  var message:string = "Hello World" 
+  console.log(message)
+  ```
+
+  Compiled to JavaScript:
+  ```
+  var message = "Hello World";
+  console.log(message);
+  ```
+  - #### Error handling:
+TypeScript provides a lot of ways to add validations to your JavaScript code. It will throw meaningful default error messages so you don't have to code out error handling messages that are known to cause performance issues.
+
+### CONS:
+  - Not natively supported by browsers
+  - Add's alot of "extra" code
+  - Less flexible than plain JavaScript. Most dev's would say start with JavaScript
+    and convert to TypeScript later if you need it's features
+    
+  ### Unique Features:
+  - Static typing
+  - Interfaces
+  - Classes
+  - Declarations
+    
 ## References
 - https://www.typescriptlang.org/
 - https://github.com/Microsoft/TypeScript/blob/master/doc/spec.md
