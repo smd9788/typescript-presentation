@@ -1,6 +1,6 @@
 # TypeScript
 
-## Objectives
+## Prerequisites
 
 -  JavaScript basics
 -  Knowledge of code compilers
