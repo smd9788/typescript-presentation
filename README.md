@@ -1,9 +1,5 @@
 # TypeScript
 
-For this discussion I chose to explore the TypeScript technology. I chose TypeScript
-because it is a very common JavaScript "transpiler," and as a JavaScript developer
-I thought this would be a useful tool to learn.
-
 ## Objectives
 
 -  JavaScript basics
@@ -19,6 +15,8 @@ By the end of this, developers should be able to:
 
 ## What is TypeScript?
 
+"TypeScript is JavaScript, TypeScript is just an additional layer of type safety added on top of JavaScript for use when you want it."
+
 TypeScript is a JavaScript compiler developed by Microsoft. Per the [TypeScript
 doc's](https://www.typescriptlang.org/index.html), "TypeScript is a typed superset of JavaScript that compiles into plain
 JavaScript." TypeScript is considered a "transpiler," which is a term
@@ -32,14 +30,12 @@ JavaScript engine (ECMAScript 3 or newer).
 
 ## Why use TypeScript?
 
-  Main goal of Typescript is to give web developers a toolkit to spend more time creating new code, and less time analyzing,       understanding, and error testing existing code.
+Main goal of Typescript is to give developers a toolkit that allows us to spend more time writing new code, and less time analyzing,      understanding, and error testing existing code.
 
-  - Scalability:
-  - #### Error handling:
-    - Typescript provides a lot of ways to add validations to your
-      JavaScript code, which will throw meaningful error messages without having to
-      code out error handling messages that are known to cause performance issues.
-  -
+### Benefits:
+  - #### Scalability: TypeScript was designed with large applications and large dev teams in mind and can be used on the front end and    on the back end.
+  - #### Static Typing: Be explicit
+  - #### Error handling: TypeScript provides a lot of ways to add validations to your JavaScript code. It will throw meaningful default error messages so you don't have to code out error handling messages that are known to cause performance issues.
 
 ## References
 - https://www.typescriptlang.org/
