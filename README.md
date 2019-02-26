@@ -18,13 +18,17 @@ By the end of this, developers should be able to:
 
 TypeScript is a programming language based on JavaScript and developed by Microsoft. Per the [TypeScript
 doc's](https://www.typescriptlang.org/index.html), "TypeScript is a typed superset of JavaScript that compiles into plain
-JavaScript." TypeScript is considered a "transpiler," which is a term
+JavaScript." 
+
+TypeScript is considered a "transpiler," which is a term
 used for a compiler that converts the source code into a language that is structured
 similarly and has a similar level of abstraction. That is why TypeScript code will
 look almost identical to JavaScript code.
 
 TypeScript is also compatible with almost all JavaScript libraries such as React,
-Node, and Angular. It compiles into code compatible with any web browser or any
+Node, and Angular (Angular 2 was actually written in TypeScript).
+
+It compiles into code compatible with any web browser or any
 JavaScript engine (ECMAScript 3 or newer).
 
 ## Why use TypeScript?
